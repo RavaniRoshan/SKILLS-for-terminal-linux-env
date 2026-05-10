@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #F8F9FA;
+  color: #222222;
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+/* Gradient background typical of the design */
+.bg-gradient-page {
+  background: linear-gradient(to bottom, #F8F9FA 0%, #FFF5F2 30%, #F8F9FA 100%);
+}
