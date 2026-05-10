@@ -2,20 +2,20 @@ import React from 'react';
 
 export default function Navbar() {
   return (
-    <nav className="w-full flex items-center justify-between px-8 py-4 bg-transparent sticky top-0 z-50">
-      <div className="flex items-center gap-2">
-        <div className="text-brand-orange text-2xl font-black italic tracking-tighter">
-          SKILLS<span className="text-brand-navy">.AI</span>
+    <div className="fixed top-6 left-0 right-0 z-50 flex justify-center px-4">
+      <nav className="flex items-center justify-between w-full max-w-4xl px-6 py-3 bg-white/20 backdrop-blur-md border border-white/30 rounded-full shadow-lg">
+        <div className="flex items-center gap-2">
+          <div className="text-brand-orange text-xl font-black italic tracking-tighter">
+            skill<span className="text-brand-navy"> ai</span>
+          </div>
         </div>
-      </div>
 
-      <div className="flex items-center gap-6">
-        <a href="#features" className="text-brand-text font-medium hover:text-brand-orange transition-colors">Features</a>
-        <a href="#usage" className="text-brand-text font-medium hover:text-brand-orange transition-colors">Usage</a>
-        <a href="https://github.com" className="bg-brand-orange hover:bg-orange-600 text-white px-6 py-2.5 rounded-full font-bold transition-all shadow-md hover:shadow-lg">
-          View GitHub
-        </a>
-      </div>
-    </nav>
+        <div className="flex items-center gap-6">
+          <a href="#features" className="text-brand-navy font-medium hover:text-brand-orange transition-colors text-sm">features</a>
+          <a href="#usage" className="text-brand-navy font-medium hover:text-brand-orange transition-colors text-sm">usage</a>
+          <a href="https://github.com/RavaniRoshan/SKILLS-for-terminal-linux-env/tree/master" target="_blank" rel="noopener noreferrer" className="text-brand-navy font-medium hover:text-brand-orange transition-colors text-sm">github</a>
+        </div>
+      </nav>
+    </div>
   );
 }
