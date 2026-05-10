@@ -21,7 +21,7 @@ export default function Footer() {
           Join thousands of developers automating their Linux environments with pure agentic skills.
         </p>
 
-        <a href="https://github.com" className="bg-brand-navy hover:bg-blue-900 text-white px-10 py-4 rounded-full font-bold text-lg transition-all shadow-lg hover:shadow-xl hover:-translate-y-1">
+        <a href="https://github.com/RavaniRoshan/SKILLS-for-terminal-linux-env/tree/master" target="_blank" rel="noopener noreferrer" className="bg-brand-navy hover:bg-blue-900 text-white px-10 py-4 rounded-full font-bold text-lg transition-all shadow-lg hover:shadow-xl hover:-translate-y-1">
           View Repository
         </a>
       </div>
